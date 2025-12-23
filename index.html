@@ -5,66 +5,36 @@
   <title>VigilAI</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-    }
-    header, footer {
-      padding: 20px;
-      text-align: center;
-      background: #020617;
-    }
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    h1 { font-size: 3rem; }
-    h2 { margin-bottom: 20px; }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      border-radius: 12px;
-    }
+    body { margin: 0; font-family: Arial, sans-serif; background: #0f172a; color: white; text-align: center; }
+    header { padding: 20px; background: #020617; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    section { padding: 50px 20px; }
+    .buttons a { display: inline-block; margin: 10px; padding: 15px 30px; text-decoration: none; border-radius: 12px; font-weight: bold; }
+    .buttons a.demo { background: #ef4444; color: white; }
+    .buttons a.ai, .buttons a.map { background: #1e293b; color: white; }
   </style>
 </head>
 <body>
+  <header>
+    <h1>VigilAI</h1>
+    <p>AI-Powered Emergency Detection Platform</p>
+  </header>
 
-<header>
-  <h1>VigilAI</h1>
-  <p>AI-Powered Emergency Detection Platform</p>
-</header>
+  <section>
+    <h2>When Seconds Matter, VigilAI Responds</h2>
+    <p>Detects emergencies, alerts responders, and saves lives — even when victims cannot call for help.</p>
+    <div class="buttons">
+      <a href="demo.html" class="demo">Simulate Emergency</a>
+      <a href="ai-analysis.html" class="ai">AI Analysis</a>
+      <a href="maps.html" class="map">Live Map</a>
+    </div>
+  </section>
 
-<section>
-  <h2>Problem</h2>
-  <p>Emergency response systems depend on manual reporting, causing critical delays when victims cannot call for help.</p>
-</section>
+  <section>
+    <h2>Our Solution</h2>
+    <p>AI Detection · Auto Alerting · Smart Routing</p>
+  </section>
 
-<section>
-  <h2>Solution</h2>
-  <div class="cards">
-    <div class="card">AI-based emergency detection</div>
-    <div class="card">Automatic alerting system</div>
-    <div class="card">Smart routing for responders</div>
-  </div>
-</section>
-
-<section>
-  <h2>Technology</h2>
-  <p>Google Gemini · GCP · Maps · Web Dashboard</p>
-</section>
-
-<footer>
-  © 2025 VigilAI
-</footer>
-
+  <footer style="padding: 20px; background: #020617;">© 2025 VigilAI | Hackathon Ready</footer>
 </body>
 </html>
