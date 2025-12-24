@@ -1,2 +1,2 @@
 # Vigilai
-AI powered emergency detected platform
+AI powered emergency detection platform
